@@ -6,3 +6,5 @@ Set German Time:
   Set-TimeZone -id "W. Europe Standard Time"
 #:
   < > |
+localonly:
+  start ms-cxh:localonly
