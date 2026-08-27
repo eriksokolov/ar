@@ -1,2 +1,5 @@
 bootuptime:
   (get-ciminstance win32_operatingsystem).lastbootuptime
+pwlastset:
+  Properties -> attributeditor -> pwlastset
+
