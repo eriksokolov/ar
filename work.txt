@@ -2,4 +2,6 @@ bootuptime:
   (get-ciminstance win32_operatingsystem).lastbootuptime
 pwlastset:
   Properties -> attributeditor -> pwlastset
+UX Windows Update:
+  Computer\hkey_local_machine\software\Policies\Microsoft\Windows\WindowsUpdate
 
