@@ -1,0 +1,2 @@
+bootuptime:
+  (get-ciminstance win32_operatingsystem).lastbootuptime
