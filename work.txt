@@ -4,4 +4,6 @@ pwlastset:
   Properties -> attributeditor -> pwlastset
 UX Windows Update:
   Computer\hkey_local_machine\software\Policies\Microsoft\Windows\WindowsUpdate
+screenclip:
+  start-process explorer.exe „ms-screenclip:“
 
