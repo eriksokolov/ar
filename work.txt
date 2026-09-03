@@ -6,4 +6,6 @@ UX Windows Update:
   Computer\hkey_local_machine\software\Policies\Microsoft\Windows\WindowsUpdate
 screenclip:
   start-process explorer.exe „ms-screenclip:“
+partofdomain:
+  (get-ciminstance win32_computersystem).partofdomain
 
