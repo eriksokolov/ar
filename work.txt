@@ -12,3 +12,7 @@ AD Query Window:
   rundll32.exe dsquery.dll,OpenQueryWindow
 GP html file:
   gpresult /h .\gp.html
+Serialnumber:
+  (Get-Ciminstance Win32_Bios).Serialnumber
+Terminalserver license manager:
+  licmgr.exe
