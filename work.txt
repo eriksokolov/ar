@@ -8,4 +8,7 @@ screenclip:
   start-process explorer.exe „ms-screenclip:“
 partofdomain:
   (get-ciminstance win32_computersystem).partofdomain
-
+AD Query Window:
+  rundll32.exe dsquery.dll,OpenQueryWindow
+GP html file:
+  gpresult /h .\gp.html
