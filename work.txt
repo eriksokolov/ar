@@ -16,5 +16,4 @@ Serialnumber:
   (Get-Ciminstance Win32_Bios).Serialnumber
 Terminalserver license manager:
   licmgr.exe
-User Shell Folders:
-  Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+
