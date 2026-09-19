@@ -8,3 +8,7 @@ Set German Time:
   < > | ‘
 localonly:
   start ms-cxh:localonly
+User Shell Folders:
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+  Screenshot Key:
+    {B7BEDE81-DF94-4682-A7D8-57A52620B86F}
