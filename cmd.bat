@@ -1,5 +1,5 @@
 @echo off
 :main
-set /p eingabe=%cd%
-%eingabe%
+set /p input=%cd%
+%input%
 goto main
