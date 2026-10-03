@@ -1,4 +1,4 @@
-$s="JBSWY3DPEHPK3PXP";
+$s="HERE";
 $a="ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
 $k=[byte[]]::new([math]::Floor(($s.Length*5)/8));
 $b="";
