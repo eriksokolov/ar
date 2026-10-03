@@ -1,0 +1,26 @@
+Character,Alt Code
+<,Alt + 60
+>,Alt + 62
+@,Alt + 64
+#,Alt + 35
+$,Alt + 36
+%,Alt + 37
+&,Alt + 38
+*,Alt + 42
++,Alt + 43
+-,Alt + 45
+/,Alt + 47
+:,Alt + 58
+;,Alt + 59
+=,Alt + 61
+?,Alt + 63
+[,Alt + 91
+\,Alt + 92
+],Alt + 93
+^,Alt + 94
+_,Alt + 95
+`,Alt + 96
+{,Alt + 123
+|,Alt + 124
+},Alt + 125
+~,Alt + 126
