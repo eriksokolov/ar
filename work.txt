@@ -1,19 +1,1 @@
-bootuptime:
-  (get-ciminstance win32_operatingsystem).lastbootuptime
-pwlastset:
-  Properties -> attributeditor -> pwlastset
-UX Windows Update:
-  Computer\hkey_local_machine\software\Policies\Microsoft\Windows\WindowsUpdate
-screenclip:
-  start-process explorer.exe „ms-screenclip:“
-partofdomain:
-  (get-ciminstance win32_computersystem).partofdomain
-AD Query Window:
-  rundll32.exe dsquery.dll,OpenQueryWindow
-GP html file:
-  gpresult /h .\gp.html
-Serialnumber:
-  (Get-Ciminstance Win32_Bios).Serialnumber
-Terminalserver license manager:
-  licmgr.exe
 
