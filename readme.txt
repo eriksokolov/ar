@@ -28,4 +28,5 @@ Serialnumber:
   (Get-Ciminstance Win32_Bios).Serialnumber
 Terminalserver license manager:
   licmgr.exe
-
+Windows Console Host:
+  conhost.exe
