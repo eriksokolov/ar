@@ -30,3 +30,5 @@ Terminalserver license manager:
   licmgr.exe
 Windows Console Host:
   conhost.exe
+Print Manager:
+  printmanagement.msc
