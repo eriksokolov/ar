@@ -34,3 +34,5 @@ Print Manager:
   printmanagement.msc
 Check SecureBoot on UEFI Computers:
   reg query "HKLM\SYSTEM\CurrentControlSet\Control\SecureBoot\State" /v UEFISecureBootEnabled
+Graphics Recovery:
+  Win + Ctrl + Shift + B
