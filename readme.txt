@@ -32,5 +32,5 @@ Windows Console Host:
   conhost.exe
 Print Manager:
   printmanagement.msc
-Confirm SecureBoot on UEFI Computers:
+Check SecureBoot on UEFI Computers:
   reg query "HKLM\SYSTEM\CurrentControlSet\Control\SecureBoot\State" /v UEFISecureBootEnabled
