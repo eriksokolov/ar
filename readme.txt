@@ -38,7 +38,7 @@ Graphics Recovery:
   Win + Ctrl + Shift + B
 No Lockscreen:
   Create Key:
-    Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Personalization
+    Computer\HKEY_local_machine\Software\Policies\Microsoft\Windows\Personalization
       Create DWORD:
         NoLockScreen
           Change Value:
