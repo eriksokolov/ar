@@ -36,3 +36,10 @@ Check SecureBoot on UEFI Computers:
   reg query "HKLM\SYSTEM\CurrentControlSet\Control\SecureBoot\State" /v UEFISecureBootEnabled
 Graphics Recovery:
   Win + Ctrl + Shift + B
+No Lockscreen:
+  Create Key:
+    Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Personalization
+      Create DWORD:
+        NoLockScreen
+          Change Value:
+            0x1
