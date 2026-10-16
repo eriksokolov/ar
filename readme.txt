@@ -39,7 +39,13 @@ Graphics Recovery:
 No Lockscreen:
   Create Key:
     Computer\HKEY_local_machine\Software\Policies\Microsoft\Windows\Personalization
-      Create DWORD:
-        NoLockScreen
-          Change Value:
-            0x1
+    Create DWORD:
+      NoLockScreen
+      Change Value:
+        0x1
+AutoLogin:
+  Create Key:  
+    Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    Create DataType:
+      DefaultPassword
+      Change Value
