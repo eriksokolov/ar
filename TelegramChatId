@@ -1,0 +1,1 @@
+$token="";  $r = Invoke-RestMethod -Uri "https://api.telegram.org/bot$token/getUpdates";  $r.result.message.chat.id
