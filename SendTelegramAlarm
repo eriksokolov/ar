@@ -1,1 +1,1 @@
-Invoke-RestMethod -Uri "https://api.telegram.org/bot$token/sendMessage" -Method Post -ContentType "application/json; charset=utf-8" -Body (@{ chat_id = $chatId; text = "alarm" } | ConvertTo-Json)
+$token="";  Invoke-RestMethod -Uri "https://api.telegram.org/bot$token/sendMessage" -Method Post -ContentType "application/json; charset=utf-8" -Body (@{ chat_id = $chatId; text = "alarm" } | ConvertTo-Json)
