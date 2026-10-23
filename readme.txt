@@ -1,4 +1,4 @@
-?EditMode Vi:
+EditMode Vi:
   Set-PSreadlineoption -editmode vi
 Keyboard Layout:
   $list = Get-WinUserLanguageList; $list.Clear(); $list.Add("de-DE"); $list.Add("ru-RU"); Set-WinUserLanguageList $list -Force
@@ -51,3 +51,5 @@ AutoLogin:
       Change Value
 Chromium Import Export Ergonomic Link:
   chrome://bookmarks/
+Disable WindowsSearch:
+  sc config WSearch start= disabled
