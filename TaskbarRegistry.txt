@@ -1,0 +1,12 @@
+#Microsoft Windows [Version 10.0.19045.3803]
+
+Deactivate News:
+  Registry Key:
+    Компьютер\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds
+  parameter:
+    Name:
+      ShellFeedsTaskbarViewMode
+    Type:
+      reg_dword
+    Data:
+      2
