@@ -1,3 +1,5 @@
+RawContent:
+  https://raw.githubusercontent.com/eriksokolov/ar/main/readme.txt⁠
 EditMode Vi:
   Set-PSreadlineoption -editmode vi
 Keyboard Layout:
